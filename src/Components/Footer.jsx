@@ -1,5 +1,7 @@
 export default function Footer() {
     return (
-        <div>Footer</div>
+        <div>Footer
+            <span>Copyright {new Date().getFullYear()}</span>
+        </div>
     )
 }
