@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom";
-
+import "./NavBar.css"
 import React from "react";
 
-import "./NavBar.css"
-
+import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 export default function NavBar() {
     return (
@@ -25,6 +24,9 @@ export default function NavBar() {
                     <Link to="/contact">Contact</Link>
                 </li>
             </ul>
+            <div className="hamburger">
+                <FaBars size={20} style={{ color: "#fff" }} />
+            </div>
         </div>
     )
 }
