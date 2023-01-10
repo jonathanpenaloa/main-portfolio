@@ -4,6 +4,11 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
+
+
+
+
 export default function NavBar() {
 
     const [click, setClick] = useState(false);
@@ -18,8 +23,10 @@ export default function NavBar() {
         }
     };
 
+    window.addEventListener('scroll', changeColor)
+
     return (
-        <div className="header">
+        <div className={color ? "header header-bg" : "header" }>
             <Link to="/">
                 <h1>Portfolio</h1>
             </Link>
