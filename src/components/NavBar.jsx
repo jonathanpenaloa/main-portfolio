@@ -9,6 +9,15 @@ export default function NavBar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if(window.screenY >= 100) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    };
+
     return (
         <div className="header">
             <Link to="/">
