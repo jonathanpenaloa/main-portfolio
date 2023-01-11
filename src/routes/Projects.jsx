@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <div>
             <NavBar/>
-            <PagesImg />
+            <PagesImg heading="PROJECTS." text="Some text" />
             <Footer/>
         </div>
     );
