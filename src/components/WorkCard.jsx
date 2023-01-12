@@ -1,19 +1,18 @@
 import React from "react";
 import "./WorkCard.css"; 
-import project3 from "../assets/project3.jpg";
 import { NavLink } from "react-router-dom";
 
-export default function WorkCard ({props}) {
-
+export default function WorkCard ({imgsrc, title, text, view, code}) {
+    
     return (
         <div className="project-card">
-            <img src={props.imgsrc} alt="something" />
-            <h2 className="project-title">{props.title}</h2>
+            <img src={imgsrc} alt="something" />
+            <h2 className="project-title">{title}</h2>
             <div className="pro-details">
-                <p>{props.text}</p>
+                <p>{text}</p>
                 <div className="pro-btns">
-                    <NavLink to={props.view} className="btn">View</NavLink>
-                    <NavLink to={props.code} className="btn">Code</NavLink>
+                    <NavLink to={view} className="btn">View</NavLink>
+                    <NavLink to={code} className="btn">Code</NavLink>
                 </div>
             </div>
         </div>
