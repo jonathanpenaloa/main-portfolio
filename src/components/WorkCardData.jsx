@@ -3,7 +3,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 
-const ProjectCardData = [
+export const ProjectCardData = [
     {
         imgsrc: project1,
         title: "Into Infiity",
@@ -33,5 +33,3 @@ const ProjectCardData = [
         code: "url",
     },
 ]
-
-export default ProjectCardData;

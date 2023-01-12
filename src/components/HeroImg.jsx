@@ -2,6 +2,8 @@ import "./HeroImg.css";
 import React from "react";
 import BackGroundImg from "../assets/background.jpg";
 import { Link } from "react-router-dom";
+
+
 export default function HereImg() {
     return (
         <div className="hero">

@@ -4,6 +4,7 @@ import project3 from "../assets/project3.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function WorkCard () {
+
     return (
         <div className="project-card">
             <img src={project3} alt="something" />
