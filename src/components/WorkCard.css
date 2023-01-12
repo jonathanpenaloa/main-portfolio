@@ -37,7 +37,7 @@
     padding: 0.5rem 1rem;
 }
 
-pro-details p {
+.pro-details p {
     padding: 1rem;
     font-size: 1.1rem;
     text-align: justify;
@@ -45,7 +45,9 @@ pro-details p {
 
 @media screen and (max-width: 740px) {
     .project-container {
-        max-width: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
     }
