@@ -13,8 +13,9 @@
 }
 
 .project-card {
-    background-color: #1a1010;
+    background-color: rgb(107, 105, 102);
     padding: 1.2rem 1rem;
+    border-radius: 1.9%;
 }
 
 .project-card > img {
