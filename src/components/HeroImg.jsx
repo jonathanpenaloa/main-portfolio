@@ -14,9 +14,9 @@ export default function HereImg() {
                 <p>Jonathan Pena Loa</p>
                 <h1>React Developer</h1>
                 <div>
-                    <Link to="/project" className="btn">Projects
+                    <Link to="/projects" className="btn">Projects
                     </Link>
-                    <Link to="/contant" className="btn btn-light">Contact
+                    <Link to="/contact" className="btn btn-light">Contact
                     </Link>
                 </div>
             </div>
