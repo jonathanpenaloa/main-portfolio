@@ -7,8 +7,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 
 
-
-
 export default function NavBar() {
 
     const [click, setClick] = useState(false);
@@ -28,6 +26,7 @@ export default function NavBar() {
     return (
         <div className={color ? "header header-bg" : "header" }>
             <Link to="/">
+                {/* <img className="my-logo" src={meimg} alt="img of dev" /> */}
                 <h1>Portfolio</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>

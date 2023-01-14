@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import aboutme1 from "../assets/aboutme1.jpg";
+import meimg from "../assets/meimg.jpg";
 
 import "./AboutContent.css";
 
@@ -21,7 +22,7 @@ export default function AboutContent () {
             <div className="right">
                 <div className="img-container">
                     <div className="img-stack top">
-                        <img className="img" src={aboutme1} alt="img" />
+                        <img className="img" src={meimg} alt="img" />
                     </div>
                     <div className="img-stack bottom">
                         <img className="img" src={aboutme1} alt="img" />
