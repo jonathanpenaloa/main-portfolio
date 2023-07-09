@@ -9,7 +9,7 @@ export default function About() {
     return (
         <div>
             <NavBar/>
-            <PagesImg heading="About me" text="Things about me" />
+            <PagesImg heading="About me" />
             <AboutContent />
             <Footer/>
         </div>

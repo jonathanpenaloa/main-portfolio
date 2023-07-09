@@ -1,8 +1,10 @@
 import React from "react";
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaHome, FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 import "./Footer.css";
 
+
 export default function Footer () {
+
     return (
         <div className="footer">
             <div className="footer-container">
@@ -10,7 +12,6 @@ export default function Footer () {
                     <div className="location">
                         <FaHome size={20} style={{color: "#fff", marginRight: "2rem"}}/>
                         <div>
-                            <p>123 House Info</p>
                             <p>Seattle Washington</p>
                         </div>
                     </div>
@@ -21,18 +22,17 @@ export default function Footer () {
                     </div>
                     <div className="email">
                         <h4>
-                        <FaMailBulk size={20} style={{color: "#fff", marginRight: "2rem"}}/> mye@gmail.com
+                        <FaMailBulk size={20} style={{color: "#fff", marginRight: "2rem"}}/><a href="mailto:jonpenaloa@gmail.com" target="_blank">jonpenaloa@gmail.com</a>
                         </h4>
                     </div>
                 </div>
 
                 <div className="right">
-                    <h4>ABOUT THE COMPANY</h4>
-                    <p>This is some story that I need to add after adding the component to the app</p>
+                    <h4>Lets Connect</h4>
                     <div className="social">
-                    <FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}}/>
-                    <FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}}/>
-                    <FaGithub size={30} style={{color: "#fff", marginRight: "1rem"}}/>
+                    <a href="https://www.linkedin.com/in/jonathan-pena-loa/" target="_blank"><FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} /></a>
+                    <a href="https://github.com/jonathanpenaloa" target="_blank"><FaGithub size={30} style={{color: "#fff", marginRight: "1rem"}}/></a>
+                    <a href="/resume.pdf" download target="_blank"><FaFileAlt size={30} style={{color: "#fff", marginRight: "1rem"}}/></a>
                     </div>
                 </div>
             </div>

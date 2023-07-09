@@ -11,8 +11,7 @@ export default function AboutContent () {
     return (
         <div className="about" >
             <div className="left">
-                <h1>Who Am I?</h1>
-                <p>imformation about me for something</p>
+                <p>Hello, I'm Jonathan Pena-Loa, a Seattle-based software engineer with a passion for making a positive impact and helping others. As a father and someone with roots in Mexico City 🇲🇽, I firmly believe in harnessing the power of technology to benefit society.</p>
                 <Link to="/contact">
                     <button className="btn">Contact</button>
                 </Link>

@@ -11,8 +11,8 @@ export default function HereImg() {
                 <img className="background-img" src={BackGroundImg} alt="BackGroundimg" />
             </div>
             <div className="content">
-                <p>Jonathan Pena Loa</p>
-                <h1>React Developer</h1>
+                <p>Jonathan Pena-Loa</p>
+                <h1>Software Engineer</h1>
                 <div>
                     <Link to="/projects" className="btn">Projects
                     </Link>

@@ -12,7 +12,7 @@ export default function Projects() {
     return (
         <div>
             <NavBar/>
-            <PagesImg heading="PROJECTS." text="Some text" />
+            <PagesImg heading="PROJECTS"/>
             <Work />
             <Footer/>
         </div>
